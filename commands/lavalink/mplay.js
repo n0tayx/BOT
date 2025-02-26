@@ -26,7 +26,7 @@ const { autoplayCollection } = require('../../mongodb');
 const { playlistCollection } = require('../../mongodb');
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName('music')
+        .setName('')
         .setDescription('Music player commands.')
         .addSubcommand(subcommand =>
             subcommand
